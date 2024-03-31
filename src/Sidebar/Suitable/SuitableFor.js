@@ -12,10 +12,12 @@ function SuitableFor({ handleChange }) {
     <div className='suitable'>
       <h2 className="sidebar-title">Suitable For</h2>
 
+      {/* Toggle button */}
       <button className="suitable-for-button" onClick={toggleShowAllOptions}>
         {showAllOptions ? 'Hide Options' : 'Show All Options'}
       </button>
 
+      {/* Suitable for dropdown */}
       {showAllOptions && (
         <div>
           <select

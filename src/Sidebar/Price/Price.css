@@ -1,3 +1,5 @@
+/* Price.css */
+
 .price {
   border-bottom: 2px solid #f3f3f3;
   position: relative;
@@ -96,9 +98,4 @@
   height: 7px;
   border-radius: 50%;
   background: white;
-}
-
-.line {
-  margin-top: 3rem;
-  border-color: #f7f7f7;
 }

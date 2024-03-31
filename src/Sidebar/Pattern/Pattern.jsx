@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import './Patern.css';
 
@@ -13,10 +12,12 @@ function Pattern({ handleChange }) {
     <div className='pat'>
       <h2 className="sidebar-title">Pattern</h2>
 
+      {/* Toggle button */}
       <button className="pattern-button" onClick={toggleShowAllPatterns}>
         {showAllPatterns ? 'Hide Patterns' : 'Show All Patterns'}
       </button>
 
+      {/* Pattern dropdown */}
       {showAllPatterns && (
         <div>
           <select

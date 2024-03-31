@@ -12,10 +12,12 @@ function Fabric({ handleChange }) {
     <div className='fabric'>
       <h2 className="sidebar-title">Fabric</h2>
 
+      {/* Toggle button */}
       <button className="fabric-button" onClick={toggleShowAllFabrics}>
         {showAllFabrics ? 'Hide Fabrics' : 'Show All Fabrics'}
       </button>
 
+      {/* Fabric dropdown */}
       {showAllFabrics && (
         <div>
           <select
