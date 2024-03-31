@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  justify-content: space-between; /* Align items to both ends of the nav */
+  align-items: center;
+  padding: 50px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #f3f3f3;
+  z-index: 999;
+}
+
+input {
+  padding: 12px 20px;
+  border: none;
+  background: #f7f6f6;
+  outline: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  position: relative;
+  width: 14rem;
+}
+.nav-icons img{
+  height: 20px;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+.nav-icons {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 2rem;
+}
+.headers h5 {
+  margin: 0 10px; /* Add spacing between each heading */
+}
+.headers {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 20px; /* Add some space between headers */
+padding-top: 40px;
+}
+
+/* Left-aligned content */
+.simple {
+  margin-right: auto; /* Moves .simple to the left side */
+}

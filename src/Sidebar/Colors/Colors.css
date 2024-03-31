@@ -1,0 +1,22 @@
+.color-title {
+  margin-top: 2rem;
+  
+}
+.color{
+  border-bottom: 2px solid #f3f3f3;
+}
+
+
+.color-button {
+  padding: 2px 6px;
+  margin-top: 10px;
+  background-color: #fdfdfd;
+  color: #060000;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+.color-button:hover {
+  background-color: #96c1ee;
+}

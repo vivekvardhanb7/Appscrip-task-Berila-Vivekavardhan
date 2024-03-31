@@ -1,0 +1,26 @@
+.sidebar-title {
+    margin-top: 10px;
+    
+  }
+  .color{
+    border-bottom: 2px solid #f3f3f3;
+  }
+  
+  
+  .fabric-button {
+    padding: 2px 6px;
+    margin-top: 10px;
+    background-color: #fdfdfd;
+    color: #060000;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+  .fabric-button:hover {
+    background-color: #96c1ee;
+  }
+  .fabric{
+    border-bottom: 2px solid #f3f3f3;
+  }
+  

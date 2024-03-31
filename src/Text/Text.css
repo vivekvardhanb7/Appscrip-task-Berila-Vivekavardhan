@@ -1,0 +1,25 @@
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the text horizontally */
+    justify-content: center;
+    padding: 2%; /* Center the text vertically */
+    border-bottom: 2px solid #f3f3f3;
+  }
+  
+  .text-container h1 {
+    font-family: "Arial Narrow", sans-serif; /* Set the font family for h1 */
+    font-weight: bold; /* Make the h1 text bold */
+    font-size: 2rem;
+    padding: 1%; /* Adjust the font size as needed */
+  }
+  
+  .text-container h3 {
+    font-size: 1rem; /* Adjust the font size as needed */
+   margin-top: 1px;
+  }
+
+
+  
