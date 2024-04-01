@@ -29,3 +29,24 @@
  
 
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 30%; /* Adjust as needed */
+  }
+}
+
+@media (max-width: 576px) {
+  .sidebar {
+    width: 40%; /* Adjust as needed */
+    padding-left: 5px; /* Adjust padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 100%; /* Take up full width on smaller screens */
+    position: relative; /* Adjust position for smaller screens */
+    border-right: none; /* Remove border on smaller screens */
+  }
+}
